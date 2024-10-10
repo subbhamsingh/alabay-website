@@ -1,0 +1,83 @@
+
+.social-media-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+.social-media-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.social-media-title {
+  font-size: 48px;
+  color: #ffa500;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Comic Sans MS', sans-serif; 
+}
+
+
+.social-links {
+  background-color: #e0e8f9;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.social-link-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.social-link-item a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.social-link-item:hover {
+  background-color: #0056b3;
+}
+
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+}
+
+
+.dog-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dog-image {
+  width: 300px;
+  height: auto;
+}
+
+
+
+

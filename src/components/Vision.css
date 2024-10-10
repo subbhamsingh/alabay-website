@@ -1,0 +1,98 @@
+.vision-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;                /* Use full width */
+  max-width: 1829.91px;      /* Max width for larger screens */
+  height: auto;               /* Let height adjust based on content */
+  margin: 0 auto;            /* Center the container */
+  gap: 0px;
+  opacity: 1;                 /* Initially visible */
+}
+
+.vision-heading {
+  font-family: 'CHEESEBURGA'; /* Ensure the font is available */
+  font-size: 5vw;             /* Use viewport width for responsiveness */
+  font-weight: 400;
+  line-height: 1.1;           /* Adjust line height */
+  text-align: center;         /* Centered text for responsiveness */
+  background: #FFA800;
+  width: 100%;                /* Full width for heading */
+  max-width: 1513px;          /* Max width for larger screens */
+  height: auto;               /* Auto height */
+  padding: 20px 0;           /* Vertical padding */
+  opacity: 1;                 /* Initially visible */
+}
+
+.vision-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vision-image {
+  width: 100%;                /* Full width */
+  max-width: 1769.22px;      /* Max width for larger screens */
+  height: auto;               /* Maintain aspect ratio */
+  opacity: 1;                 /* Initially visible */
+}
+
+.vision-text {
+  width: 100%;                /* Full width */
+  max-width: 1606px;         /* Max width for larger screens */
+  height: auto;               /* Auto height */
+  font-family: 'Kumbh Sans'; /* Ensure the font is available */
+  font-size: 2.5vw;          /* Use viewport width for responsiveness */
+  font-weight: 700;
+  line-height: 1.1;          /* Adjust line height */
+  text-align: center;        /* Centered text */
+  opacity: 1;                 /* Initially visible */
+}
+
+.parallax {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Media Queries for additional responsiveness */
+@media (max-width: 1920px) {
+  .vision-heading {
+      font-size: 4vw;         /* Adjust font size for smaller screens */
+  }
+
+  .vision-text {
+      font-size: 2vw;         /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .vision-heading {
+      font-size: 3rem;        /* Further adjust for tablets */
+  }
+
+  .vision-text {
+      font-size: 1.5rem;      /* Further adjust for tablets */
+  }
+
+  .vision-container {
+      padding: 30px 10px;     /* Reduce padding for smaller devices */
+  }
+}
+
+@media (max-width: 480px) {
+  .vision-heading {
+      font-size: 2rem;        /* Smaller font size for mobile */
+  }
+
+  .vision-text {
+      font-size: 1rem;        /* Smaller font size for mobile */
+  }
+
+  .vision-container {
+      padding: 20px 5px;      /* Minimal padding for mobile */
+  }
+}

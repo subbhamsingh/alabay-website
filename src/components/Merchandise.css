@@ -1,0 +1,148 @@
+.merchandise-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  padding: 20px;
+}
+
+.merchandise-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.merchandise-header h1 {
+  font-size: 48px;
+  color: #f8b900;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.merchandise-showcase {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.merchandise-item {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.merchandise-item img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.coming-soon {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.description span {
+  color: #f8b900;
+  font-weight: bold;
+}
+
+.discover-button {
+  padding: 10px 20px;
+  background-color: #f8b900;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.discover-button:hover {
+  background-color: #e09e00;
+}
+
+.arrow {
+  background-color: #f8b900;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: background-color 0.3s;
+}
+
+.arrow:hover {
+  background-color: #e09e00;
+}
+
+.left-arrow {
+  position: absolute;
+  left: -60px;
+}
+
+.right-arrow {
+  position: absolute;
+  right: -60px;
+}
+
+@media (max-width: 768px) {
+  .merchandise-container {
+    padding: 10px;
+  }
+
+  .merchandise-item {
+    width: 250px;
+    height: 400px;
+  }
+
+  .merchandise-item img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .arrow {
+    font-size: 20px;
+    padding: 8px;
+  }
+
+  .left-arrow {
+    left: -40px;
+  }
+
+  .right-arrow {
+    right: -40px;
+  }
+
+
+}
+
+.bgr {
+  border: 2px solid red;
+  background-image: url('../../public/images/Merchandise/pink\ tee\ bck.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1652px;
+}
